@@ -1,0 +1,236 @@
+/* give everything in the code a border, padding and margin of whatever it is set to*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Sets the background color of the body to become the color set*/
+  body {
+    background-color: #d9dcd6;
+  }
+  
+  /* Sets everything in the header to the desired font family, background color, text color(color) and gives it a padding which is the area that covers the header*/
+  .header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+  }
+  
+  /* makes the clickable links to be on one line in the nav bar*/
+  .header h1 {
+    display: inline-block;
+    font-size: 48px;
+  }
+  
+  /* causes the seo inside the website's title to be the color chosen inside the header*/
+  .header h1 .seo {
+    color: #d9dcd6;
+  }
+  
+  /* give the navbar space at the top, moves it to the left by 20px, gives it a font size of 20px, and gives it the chosen font family*/
+  .header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+  }
+  
+  /* removes the dots off the links in the navbar*/
+  .header nav ul {
+    list-style-type: none;
+  }
+  
+  /* causes the navbar links to be displayed on a single line with space in the left of 25px*/
+  .header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+  }
+  
+  /* makes the links have no underline or anything to it and makes the text color of it white*/
+  a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  /* makes the font size of all text in the paragraphs by 16px unless specificed*/
+  p {
+    font-size: 16px;
+  }
+  
+  /* Sets the image to be displayed, gives it a height of 800px and width of 100% which covers the whole screen, gives it space at the bottom by 25px, causes the image to take the whole space and centers the image*/
+  .hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url('../images/digital-marketing-meeting.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* makes the images on search engine optimization and social media marketing to be displayed on the left side of the text and gives it space on the right side by 25px*/
+  .float-left {
+    float: left;
+    margin-right: 25px;
+  }
+  
+  /* makes the image on online reputation management to be displayed on the right side of the text and gives it space on the left side by 25px*/
+  .float-right {
+    float: right;
+    margin-left: 25px;
+  }
+  
+  /* makes the width of the content to be take up only 75% of the page, makes it so then the side information can be fit on the same line, and gives it space from the left by 20px */
+  .content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  /* causes all th text in benefits to be space from the right side, background space by 20px, have a width of 20% and height of 100% which sets how the box looks like, a font family that was chosen, and give the box a background color of blue*/
+  .benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+  }
+  
+  /* gives space between the bottom text of lead management and sets the text color to white*/
+  .benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+  }
+  
+  /* gives space between the bottom text of brand awareness and sets the text color to white*/
+  .benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+  }
+  
+  /* gives space between the bottom text of cost management and sets the text color to white*/
+  .benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+  }
+  
+  /* Alligns the text in the center and gives it space at the bottom of the title by 10px in lead generation */
+  .benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  /* Alligns the text in the center and gives it space at the bottom of the title by 10px in brand awareness */
+  .benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  /* Alligns the text in the center and gives it space at the bottom of the title by 10px in cost management */
+  .benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  /* Makes lead generation's image have its own line so the text wont overlap it, gives it space all around by 10px, and makes the image smaller by setting it's width to 150px*/
+  .benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+  }
+  
+  /* Makes brand awareness's image have its own line so the text wont overlap it, gives it space all around by 10px, and makes the image smaller by setting it's width to 150px*/
+  .benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+  }
+  
+  /* Makes cost management's image have its own line so the text wont overlap it, gives it space all around by 10px, and makes the image smaller by setting it's width to 150px*/
+  .benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+  }
+  
+  /* Gives the search engine optimization section a space at the bottom(margin-bottom), space around it (padding), the font family chosen, sets the background color to blue and the text color to white and causes the paddings height to be 300px*/
+  .search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+  }
+  
+  /* Gives the online reputation management section a space at the bottom(margin-bottom), space around it (padding), the font family chosen, sets the background color to blue and the text color to white and causes the paddings height to be 300px*/
+  .online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+  }
+  
+  /* Gives the social media marketing section a space at the bottom(margin-bottom), space around it (padding), the font family chosen, sets the background color to blue and the text color to white and causes the paddings height to be 300px*/
+  .social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+  }
+  
+  /* gives the image in the search engine optimization section a max height of 200px to fit inside the blue background */
+  .search-engine-optimization img {
+    max-height: 200px;
+  }
+  
+  /* gives the image in the online reputation management section a max height of 200px to fit inside the blue background */
+  .online-reputation-management img {
+    max-height: 200px;
+  }
+  
+  /* gives the image in the social media marketing section a max height of 200px to fit inside the blue background */
+  .social-media-marketing img {
+    max-height: 200px;
+  }
+  
+  /* Gives the element h2 in the search engine optimization section space at the bottom and changes the font size to be 36px */
+  .search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+  }
+  
+  /* give the h2 in the online reputation management section a margin at the bottom and a font size of 36px */
+  .online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+  }
+  
+  /* Gives the element h2 in the social media marketing section space at the bottom and changes the font size to be 36px */ 
+  .social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+  }
+  
+  /* Gives the footer space, changes the font family to be the chosen one and alligns the text to the center*/
+  .footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+  }
+  
+  /* makes the footer's text have a size of 20px for the element h2 */
+  .footer h2 {
+    font-size: 20px;
+  }
+  
